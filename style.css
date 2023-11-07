@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+h1, h3, p, div, form {
+  text-align: center;
+}
+
+#start-container {
+  margin-top: 50px;
+}
+
+#start {
+  width: 130px;
+  height: 50px;
+  border: none;
+  background: rgb(0, 132, 255);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#start:hover {
+  opacity: .6;
+}
+
+h1 {
+  margin-top: 50px;
+  border-bottom: 3px solid #ccc;
+  padding-bottom: 30px;
+}
+
+
+h3 {
+  font-size: 120px;
+  margin-top: 60px;
+}
+
+#correct-answer {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: red;
+}
+
+#hira {
+  font-size: 50px;
+}
+
+#helper {
+  margin-top: 40px;
+  font-size: 30px;
+  color: rgb(240, 132, 150);
+}
+
+
+input {
+  height: 60px;
+  width: 30%;
+  margin-top: 70px;
+  border: 6px solid blue;
+  font-size: 40px;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
